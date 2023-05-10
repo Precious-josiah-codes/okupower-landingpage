@@ -260,7 +260,7 @@ export default function Home() {
         {/* end banner */}
 
         {/* start product features */}
-        <section className="hidden sm:block lg:px-[5rem] bg-[#F2F2F2] h-[45rem]">
+        <section className="block lg:px-[5rem] bg-[#F2F2F2] h-[50rem] pt-9 sm:pt-0">
           <h1 className="text-4xl text-center">
             <span className="inline-flex relative">
               <Image
@@ -281,27 +281,29 @@ export default function Home() {
           {/* start feature list and images */}
           <div className="flex justify-between mt-[4rem]">
             {/* left section */}
-            <ul className="capitalize list-disc space-y-9 ml-6">
-              <li>Surge protection</li>
-              <li>Over voltage protection</li>
-              <li>Load-line current detector</li>
-              <li>Bypass detection</li>
-              <li>App for user to view consumption level</li>
-              <li>
-                run-time (up time) calculation based on load and credit units
-                left
-              </li>
-              <li>Low credit unit notification</li>
-              <li className="w-[35rem]">
-                it can be used to drive the sales of reacharge cards, as it can
-                interact with an API that enables aitime to be converted to
-                legal tender (NGN) and use the money value to purchase power
-                units automatically.{" "}
-              </li>
-            </ul>
+            <div className="w-full px-6 sm:px-0">
+              <ul className="capitalize list-disc space-y-9 ml-6">
+                <li>Surge protection</li>
+                <li>Over voltage protection</li>
+                <li>Load-line current detector</li>
+                <li>Bypass detection</li>
+                <li>App for user to view consumption level</li>
+                <li>
+                  run-time (up time) calculation based on load and credit units
+                  left
+                </li>
+                <li>Low credit unit notification</li>
+                <li className="sm:w-[35rem]">
+                  it can be used to drive the sales of reacharge cards, as it
+                  can interact with an API that enables aitime to be converted
+                  to legal tender (NGN) and use the money value to purchase
+                  power units automatically.{" "}
+                </li>
+              </ul>
+            </div>
 
             {/* right section */}
-            <div className="space-y-6">
+            <div className="space-y-6 hidden sm:block">
               <div className="h-[18rem] w-[20rem] bg-green-400">
                 <Image
                   src="/mockup1.jpeg"
