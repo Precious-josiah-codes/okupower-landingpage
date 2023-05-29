@@ -124,9 +124,9 @@ export default function Home() {
           </section>
 
           {/* right section */}
-          <section className="hidden sm:block w-[70rem] overflow-hidden bg-[#0A8C55]">
+          <section className="hidden sm:block w-[70rem] overflow-hidden sm:px-6">
             <Image
-              src="https://images.pexels.com/photos/2422287/pexels-photo-2422287.jpeg?auto=compress&cs=tinysrgb&w=600"
+              src="https://res.cloudinary.com/dszhzezvt/image/upload/v1683565325/amihub/okupower_kbilri.png"
               alt="Girl"
               className="relative z-30 inline object-cover h-full w-full"
               width={1260}
