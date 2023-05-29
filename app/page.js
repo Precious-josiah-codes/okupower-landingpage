@@ -57,7 +57,7 @@ export default function Home() {
         {/* end navbar */}
 
         {/* start hero section */}
-        <section className="flex px-6 lg:px-[5rem] bg-[#F2F2F2] h-[70vh] sm:h-screen">
+        <section className="flex flex-col sm:flex-row px-6 lg:px-[5rem] bg-[#F2F2F2] h-[90vh] sm:h-screen">
           {/* left section */}
           <section className="h-full flex flex-col justify-center">
             <h5 className="capitalize text-[#AF4FA2]">
@@ -124,7 +124,7 @@ export default function Home() {
           </section>
 
           {/* right section */}
-          <section className="hidden sm:block w-[70rem] overflow-hidden sm:px-6">
+          <section className="block my-9 sm:my-0 sm:w-[70rem] overflow-hidden sm:px-6">
             <Image
               src="https://res.cloudinary.com/dszhzezvt/image/upload/v1683565325/amihub/okupower_kbilri.png"
               alt="Girl"
